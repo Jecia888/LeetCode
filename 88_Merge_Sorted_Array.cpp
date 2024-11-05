@@ -2,6 +2,9 @@
 #include <iterator>        // For std::make_move_iterator
 #include <algorithm>       // For std::copy (if needed)
 
+//O(m + n) solution 
+//beats 100% time complexity 
+
 class Solution {
 public:
     void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n) {

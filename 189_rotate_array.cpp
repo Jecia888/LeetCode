@@ -4,7 +4,7 @@
 
 class Solution {
 public:
-    void rotate(vector<int>& nums, int k) {
+    void rotate(std::vector<int>& nums, int k) {
         k = k % nums.size(); 
         std::vector<int> subvector = {nums.end() - k, nums.end()};
         nums.erase(nums.end() - k, nums.end()); 
